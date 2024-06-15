@@ -6,17 +6,17 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1718460702,
-        "narHash": "sha256-NdN/EjA6b3dS7QWVROIH4u7ATWPKiFeA5l9YnSdpVDI=",
-        "ref": "refs/heads/master",
-        "rev": "e785e5651a2583a41bdaa06d704edc1f2430ca25",
-        "revCount": 13,
-        "type": "git",
-        "url": "file:///home/hcssmith/Projects/application-builders"
+        "lastModified": 1718467869,
+        "narHash": "sha256-87tRvEbFdQokSRQ4+raEm1nT06AZbRs5skQ/BxaPvt8=",
+        "owner": "hcssmith",
+        "repo": "application-builders",
+        "rev": "e2ec3a9907262fa2fba3d15621ece2b0dcc136a2",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "file:///home/hcssmith/Projects/application-builders"
+        "owner": "hcssmith",
+        "repo": "application-builders",
+        "type": "github"
       }
     },
     "base16-schemes": {

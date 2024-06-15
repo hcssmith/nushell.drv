@@ -3,7 +3,7 @@
 
   inputs = {
     flake-lib.url = "github:hcssmith/flake-lib";
-    application-builders.url = "git+file:///home/hcssmith/Projects/application-builders";
+    application-builders.url = "github:hcssmith/application-builders";
   };
 
   outputs = {
