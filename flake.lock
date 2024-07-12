@@ -8,11 +8,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1720387339,
-        "narHash": "sha256-cpOhFLSfCyc1MLQRdOcppCqLv7wnw0dyG27dP+dfmLs=",
+        "lastModified": 1720792298,
+        "narHash": "sha256-VyQ+0E94GwgXnu7EjVYhvnly7ZS9PEpcWk5Yc2h1vrk=",
         "owner": "hcssmith",
         "repo": "application-builders",
-        "rev": "8d968fe5a66c779e8d33bb4abc273a739240608e",
+        "rev": "c42e68e948b6817a054323b927a883868b88a05e",
         "type": "github"
       },
       "original": {
