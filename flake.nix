@@ -19,7 +19,9 @@
     flake-lib,
     application-builders,
     ...
-  }:
+  }: let
+    helpers = application-builders.lib.helpers.nushell;
+  in
     flake-lib.lib.mkApp {
       inherit self;
       name = "nushell";
@@ -31,7 +33,8 @@
             buffer_editor = "nvim";
           };
           keybindings = p.lib.flatten [
-            (import ./keybinds/project.nix {helpers = application-builders.lib.helpers.nushell;})
+            (import ./keybinds/project.nix {inherit helpers;})
+            (import ./keybinds/completion.nix {inherit helpers;})
           ];
           env = {
             EDITOR = "nvim";
